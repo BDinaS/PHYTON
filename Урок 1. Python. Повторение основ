@@ -1,0 +1,13 @@
+1.
+
+full_name = 'Багаутдинова Дина Сергеевна'
+for i in full_name:
+    print(i)
+
+2.
+
+def euro(dollar, exchange_rate):
+    return dollar / exchange_rate
+
+
+print(euro(100, 1.17).__round__(2))
